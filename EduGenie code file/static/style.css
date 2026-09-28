@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f6fb;
+  margin: 0;
+  padding: 24px 12px 60px;
+  color: #1f2430;
+}
+
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 4px;
+  color: #2b3a67;
+}
+
+.subtitle {
+  text-align: center;
+  color: #6b7280;
+  margin-top: 0;
+  margin-bottom: 28px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.card label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.card input[type="text"],
+.card textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.card textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.card button {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.card button:hover {
+  background: #2563eb;
+}
+
+.output {
+  margin-top: 14px;
+  padding: 14px;
+  background: #f9fafb;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+.output:empty {
+  display: none;
+}
+
+.quiz-question {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.quiz-option {
+  display: block;
+  margin: 6px 0;
+}
+
+.feedback {
+  margin-top: 8px;
+  font-weight: 600;
+}
+
+pre {
+  white-space: pre-wrap;
+  font-family: inherit;
+}
